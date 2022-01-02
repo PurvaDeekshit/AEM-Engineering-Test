@@ -25,5 +25,5 @@ Part 4 : EFK integration
 }
 7) Check Kibana running : http://localhost:5601/app/home
 8) Create index pattern with “fluentd-*”
-9) Go to dashboard and “Discover” section
+9) Go to Analytics -> Discover section.
 Test url :http://localhost:8080/romannumeral?query=123
