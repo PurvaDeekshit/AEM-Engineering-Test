@@ -1,6 +1,6 @@
 **Part 4: EFK integration**
 
-**Steps**
+**Steps to run:**
 
 1) git clone https://github.com/PurvaDeekshit/AEM-Engineering-Test.git
 2) cd AEM-Engineering-Test/efk-integration
@@ -31,4 +31,4 @@ Expected output:
 
 7) Check Kibana running on: http://localhost:5601/app/home
 8) On the Home page, search for "Index patterns" and create an index pattern with “fluentd-*”.
-9) Go to Analytics -> Discover section to check the logs generated for the webservice using: http://localhost:8080/romannumeral?query=123
+9) On the top left corner, go to Analytics -> Discover section to check the logs generated for the webservice using: http://localhost:8080/romannumeral?query=123
