@@ -10,6 +10,7 @@
 6) Check Elasticsearch running on: http://localhost:9200/
 
 Expected output:
+
 {
   "name" : "a46aa09e30e3",
   "cluster_name" : "docker-cluster",
