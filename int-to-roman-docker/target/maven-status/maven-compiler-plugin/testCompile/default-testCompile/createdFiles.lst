@@ -1,0 +1,3 @@
+com/docker/application/dockerinttoroman/entity/IntegerToRomanEntityTests.class
+com/docker/application/dockerinttoroman/controller/IntegerToRomanControllerTests.class
+com/docker/application/dockerinttoroman/DockerIntToRomanApplicationTests.class
