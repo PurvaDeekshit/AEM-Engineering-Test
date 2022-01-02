@@ -1,5 +1,0 @@
-com/docker/application/dockerinttoroman/entity/IntegerToRomanResponse.class
-com/docker/application/dockerinttoroman/entity/IntegerToRoman.class
-com/docker/application/dockerinttoroman/DockerIntToRomanApplication.class
-com/docker/application/dockerinttoroman/service/IntegerToRomanService.class
-com/docker/application/dockerinttoroman/controller/IntegerToRomanController.class
