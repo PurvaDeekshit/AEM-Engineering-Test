@@ -141,4 +141,16 @@ testGetRoman - test if the input is converted to roman numeral correctly.
 
 **Error Handling:**
 
+Following scenarios are handled in the service and functional layer code. These errors are returned in plain text format.
+
+If input is not a positive integer - "Invalid input specified"
+
+If input is within the specified range - "Invalid Input Range"
+
+If input is null - "Null received while converting integer to roman"
+
+If input is empty - "Empty string received while converting integer to roman"
+
+If minimum number is not less than maximum number - "Min number is greater than or equal to Max number"
+
 More details in attached report.
