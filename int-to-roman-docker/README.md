@@ -11,8 +11,13 @@
 7) check API documentation: http://localhost:8080/swagger-ui.html
 
 Test using browser:
-Test url : http://localhost:8080/romannumeral?query=10
-Output: 
+
+Test url:
+
+http://localhost:8080/romannumeral?query=10
+
+Output:
+
 {
 "input":10,"output":"X"
 }
