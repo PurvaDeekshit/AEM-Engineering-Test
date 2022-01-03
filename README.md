@@ -1,8 +1,14 @@
 # AEM-Engineering-Test
 
-JAVA
-Sprinboot
-CNCF
+I have used JAVA and Sprinboot framework for this project.
+
+To add DevOps capabilities to the project, I have used the following CNCF suggested tools as described on the CNCF landscape webpage: https://landscape.cncf.io/.
+
+a) Prometheus and Grafana
+
+b) Jaeger
+
+c) Elasticsearch, Fluentd and Kibana (EFK) Stack
 
 There are total 5 projects in this repository:
 1. int-to-roman-docker
@@ -79,9 +85,9 @@ Packaging layout:
    
        contains the JUNIT tests for validating the core functionality.
        
-pom.xml contains the project dependencies.
+-- pom.xml contains the project dependencies.
 
-Dockerfile contains the steps to build docker image.
+-- Dockerfile contains the steps to build docker image.
 
 Project structure:
 
