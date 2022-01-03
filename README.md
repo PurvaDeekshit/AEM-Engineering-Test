@@ -2,7 +2,7 @@
 
 I have used JAVA and Sprinboot framework for this project.
 
-To add DevOps capabilities to the project, I have used the following CNCF suggested tools as described on the CNCF landscape webpage: https://landscape.cncf.io/.
+To add DevOps capabilities to the project, I have used the following CNCF suggested tools since they are CNCF graduated projects described on the CNCF landscape webpage: https://landscape.cncf.io/.
 
 a) Prometheus and Grafana
 
@@ -15,7 +15,7 @@ c) Elasticsearch, Fluentd and Kibana (EFK) Stack
 There are total 5 projects in this repository:
 1. int-to-roman-docker
  
-   Exposed REST API endpoint: "http://localhost:8080/romannumeral?query={integer}"
+   Exposed REST API endpoint: "http://localhost:8080/romannumeral?query={integer}". Each Request generated unique UUID.
    
    Used Actuator endpoints let you monitor and interact with your application.
    
