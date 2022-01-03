@@ -10,8 +10,6 @@ b) Jaeger
 
 c) Elasticsearch, Fluentd and Kibana (EFK) Stack
 
-
-
 **Project info:**
 
 There are total 5 projects in this repository:
@@ -53,8 +51,6 @@ There are total 5 projects in this repository:
 
 Each project has its own README.md file with steps to pull and run the source code.
 
-
-
 **Engineering and testing methodology:**
 
 Used JAVA SpringBoot framework to develop REST endpoints.
@@ -64,7 +60,6 @@ Used Actuator endpoints to monitor and interact with the application and maven f
 Followed Test-driven development methodology.
 
 Developed Junit test cases for service layer and REST controller.
-
 
 **Packaging Layout:**
 
@@ -96,14 +91,26 @@ Developed Junit test cases for service layer and REST controller.
 
 -- Dockerfile contains the steps to build docker image.
 
-
-
 **Project structure:**
 
 ![image](https://user-images.githubusercontent.com/47338443/147909114-886e3f09-f8de-4964-901c-0e131d288379.png)
 
-
 **Dependency Attribution:**
 
+Maven - project build and dependency management
+
+Dependencies in pom.xml:
+
+spring-boot-starter-web - Starter for building RESTful services
+
+spring-boot-starter-test - Starter for testing Spring Boot applications with libraries including JUnit Jupiter, Hamcrest and Mockito
+
+springdoc-openapi-ui - For generation of API documentation
+
+spring-boot-starter-actuator - Starter for using Spring Boot’s Actuator for metrics and monitoring
+
+micrometer-registry-prometheus - For Prometheus monitoring
+
+opentracing-spring-jaeger-web-starter - For Jaeger distributed tracing
 
 More details in attached report.
