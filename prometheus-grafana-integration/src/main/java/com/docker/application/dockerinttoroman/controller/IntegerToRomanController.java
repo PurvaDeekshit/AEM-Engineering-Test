@@ -35,7 +35,6 @@ public class IntegerToRomanController {
         UUID uuid = UUID.randomUUID();
         logger.info("Received new request : " + uuid);
         logger.info("Input query param : " + query);
-        logger.info("Completed request : " + uuid);
         return IntegerToRomanService.convertToRoman(query);
     }
 }
