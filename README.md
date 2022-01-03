@@ -1,14 +1,16 @@
 # AEM-Engineering-Test
 
-I have used JAVA (version 17) and Sprinboot framework for this project. I initialized the project using springboot initializr: https://start.spring.io/
+**Integer to Roman Numeral conversion + Docker**
+
+This project is developed using JAVA (version 17) and Sprinboot framework. I initialized the project using springboot initializr: https://start.spring.io/
 
 To add DevOps capabilities to the project, I have used the following CNCF suggested tools since they are CNCF graduated projects described on the CNCF landscape webpage: https://landscape.cncf.io/.
 
-a) Prometheus and Grafana
+1. Prometheus and Grafana
 
-b) Jaeger
+2. Jaeger
 
-c) Elasticsearch, Fluentd and Kibana (EFK) Stack
+3. Elasticsearch, Fluentd and Kibana (EFK) Stack
 
 **Project info:**
 
@@ -58,7 +60,7 @@ There are total 5 projects in this repository. Each project has its own README.m
    
    Dockerized JAVA application using openjdk.
 
-**Engineering and testing methodology:**
+**Engineering and Testing methodology:**
 
 Used JAVA SpringBoot framework to develop REST endpoints. Structured code as controller, service and entity layers.
 
@@ -68,7 +70,7 @@ Followed Test-driven development methodology.
 
 Developed Junit test cases for service layer and REST controller.
 
-**Packaging Layout:**
+**Packaging layout:**
 
 -- src/main:
 
@@ -102,7 +104,7 @@ Developed Junit test cases for service layer and REST controller.
 
 ![image](https://user-images.githubusercontent.com/47338443/147909114-886e3f09-f8de-4964-901c-0e131d288379.png)
 
-**Dependency Attribution:**
+**Dependency attribution:**
 
 Maven - project build and dependency management
 
@@ -126,43 +128,41 @@ Performed testing using Postman and manual testing in the browser using the URL.
 
 Used JUnit Test for the following tests:
 
-Controller test:
+1. Controller test:
 
-validInput - test covering positive scenario, where input is integer within the specified range.
+1.1. validInput - test covering positive scenario, where input is integer within the specified range.
 
-invalidInput - test covering a scenario, where input is not integer.
+1.2. invalidInput - test covering a scenario, where input is not integer.
 
-outOfRangeInputBelowMinimumValue - test covering a scenario, where input is less than the specified range.
+1.3. outOfRangeInputBelowMinimumValue - test covering a scenario, where input is less than the specified range.
 
-outOfRangeInputAboveMaximumValue - test covering a scenario, where input is greater than the specified range.
+1.4. outOfRangeInputAboveMaximumValue - test covering a scenario, where input is greater than the specified range.
 
-Functionality test:
+2. Functionality test:
 
-testValidInput - test if input parameter can be converted to integer.
+2.1 testValidInput - test if input parameter can be converted to integer.
 
-testInvalidInput - test if input parameter cannot be converted to integer.
+2.2 testInvalidInput - test if input parameter cannot be converted to integer.
 
-testValidInputRange -  test if input is in the specified range.
+2.3 testValidInputRange -  test if input is in the specified range.
 
-testInvalidInputRange - test if input is not in the specified range.
+2.4 testInvalidInputRange - test if input is not in the specified range.
 
-testGetRoman - test if the input is converted to roman numeral correctly.
+2.5 testGetRoman - test if the input is converted to roman numeral correctly.
 
-**Error Handling:**
+**Error handling:**
 
 Following scenarios are handled in the service and functional layer code. These errors are returned in plain text format.
 
-If input is not a positive integer - "Invalid input specified"
+1. If input is not a positive integer - "Invalid input specified"
 
-If input is within the specified range - "Invalid Input Range"
+2. If input is within the specified range - "Invalid Input Range"
 
-If input is null - "Null received while converting integer to roman"
+3. If input is null - "Null received while converting integer to roman"
 
-If input is empty - "Empty string received while converting integer to roman"
+4. If input is empty - "Empty string received while converting integer to roman"
 
-If minimum number is not less than maximum number - "Min number is greater than or equal to Max number"
-
-More details in attached report.
+5. If minimum number is not less than maximum number - "Min number is greater than or equal to Max number"
 
 **References:**
 
@@ -187,3 +187,5 @@ More details in attached report.
 10. Kibana: https://www.elastic.co/guide/en/kibana/current/index.html
 
 11. Jaeger: https://www.jaegertracing.io/docs/1.29/getting-started/
+
+More details in the attached report.
