@@ -10,6 +10,10 @@ b) Jaeger
 
 c) Elasticsearch, Fluentd and Kibana (EFK) Stack
 
+
+
+**Project info:**
+
 There are total 5 projects in this repository:
 1. int-to-roman-docker
  
@@ -49,7 +53,9 @@ There are total 5 projects in this repository:
 
 Each project has its own README.md file with steps to pull and run the source code.
 
-Engineering and testing methodology:
+
+
+**Engineering and testing methodology:**
 
 Used JAVA SpringBoot framework to develop REST endpoints.
 
@@ -59,7 +65,9 @@ Followed Test-driven development methodology.
 
 Developed Junit test cases for service layer and REST controller.
 
-Packaging layout: 
+
+
+**Packaging layout: **
 
 -- src/main:
 
@@ -89,10 +97,11 @@ Packaging layout:
 
 -- Dockerfile contains the steps to build docker image.
 
-Project structure:
+
+
+**Project structure:**
 
 ![image](https://user-images.githubusercontent.com/47338443/147909114-886e3f09-f8de-4964-901c-0e131d288379.png)
 
-Dependency attribution: 
 
 More details in attached report.
