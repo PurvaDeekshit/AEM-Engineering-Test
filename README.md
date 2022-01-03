@@ -114,3 +114,29 @@ micrometer-registry-prometheus - For Prometheus monitoring
 opentracing-spring-jaeger-web-starter - For Jaeger distributed tracing
 
 More details in attached report.
+
+**Tests:**
+
+Controller test:
+
+validInput - test covering positive scenario, where input is integer within the specified range.
+
+invalidInput - test covering a scenario, where input is not integer.
+
+outOfRangeInputBelowMinimumValue - test covering a scenario, where input is less than the specified range.
+
+outOfRangeInputAboveMaximumValue - test covering a scenario, where input is greater than the specified range.
+
+Functionality test:
+
+testValidInput - test if input parameter can be converted to integer.
+
+testInvalidInput - test if input parameter cannot be converted to integer.
+
+testValidInputRange -  test if input is in the specified range.
+
+testInvalidInputRange - test if input is not in the specified range.
+
+testGetRoman - test if the input is converted to roman numeral correctly.
+
+**Error Handling:**
