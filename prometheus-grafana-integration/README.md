@@ -44,4 +44,8 @@ http://localhost:3000/login
 
     5.9) Click on “Apply” and the logs will be displayed on the dashboard, specifying the usage and requests that are generated on the web service.
     
-5) docker-compose stop
+6) docker-compose stop
+
+Sample output from Prometheus:
+
+
