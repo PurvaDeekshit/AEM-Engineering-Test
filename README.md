@@ -113,8 +113,6 @@ micrometer-registry-prometheus - For Prometheus monitoring
 
 opentracing-spring-jaeger-web-starter - For Jaeger distributed tracing
 
-More details in attached report.
-
 **Tests:**
 
 Controller test:
@@ -140,3 +138,5 @@ testInvalidInputRange - test if input is not in the specified range.
 testGetRoman - test if the input is converted to roman numeral correctly.
 
 **Error Handling:**
+
+More details in attached report.
