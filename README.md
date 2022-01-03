@@ -122,7 +122,7 @@ opentracing-spring-jaeger-web-starter - For Jaeger distributed tracing
 
 **Tests:**
 
-Performed manual testing using the URL in the browser and using Postman.
+Performed testing using Postman and manual testing in the browser using the URL.
 
 Used JUnit Test for the following tests:
 
