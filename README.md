@@ -66,7 +66,7 @@ Followed Test-driven development methodology.
 Developed Junit test cases for service layer and REST controller.
 
 
-**Packaging layout:**
+**Packaging Layout:**
 
 -- src/main:
 
@@ -103,4 +103,5 @@ Developed Junit test cases for service layer and REST controller.
 ![image](https://user-images.githubusercontent.com/47338443/147909114-886e3f09-f8de-4964-901c-0e131d288379.png)
 
 
+**Dependency Attribution:**
 More details in attached report.
