@@ -16,7 +16,7 @@ To add DevOps capabilities to the project, I have used the following CNCF sugges
 
 There are total 5 projects in this repository. Each project has its own README.md file with steps to pull and run the source code.
 
-1. int-to-roman-docker
+**1. int-to-roman-docker**
  
    Exposed REST API endpoint: "http://localhost:8080/romannumeral?query={integer}". Each request generated an unique UUID.
    
@@ -28,19 +28,19 @@ There are total 5 projects in this repository. Each project has its own README.m
 
    JUnit testcase for controller and functional testing.
    
-2. prometheus-grafana-integration
+**2. prometheus-grafana-integration**
    
    Integrated Prometheus and Grafana for metrics info and monitoring.
    
    Dockerized JAVA application using openjdk. Prometheus and Grafana run in their respective containers.
 
-3. jaeger-integration
+**3. jaeger-integration**
 
    Integrated Jaeger for dstributed tracing of requests.
    
    Jaeger runs in its own container.
 
-4. efk-integration
+**4. efk-integration**
   
    Integrated Elasticsearch, Fluentd and Kibana (EFK) Logging Stack.
    
@@ -52,7 +52,7 @@ There are total 5 projects in this repository. Each project has its own README.m
    
    Dockerized JAVA application using openjdk. Elasticsearch, Fluentd and Kibana each have their own containers.
 
-5. multithreaded-int-to-roman-docker
+**5. multithreaded-int-to-roman-docker**
 
    Added support for range queries and exposed REST API endpoint: "http://localhost:8080/romannumeral?min={integer}&max={integer}"
    
@@ -66,7 +66,7 @@ Used JAVA SpringBoot framework to develop REST endpoints. Structured code as con
 
 Used Actuator endpoints to monitor and interact with the application and maven for project build.  
 
-Followed Test-driven development methodology.
+Followed a Test-Driven Development methodology.
 
 Developed Junit test cases for service layer and REST controller.
 
@@ -110,17 +110,17 @@ Maven - project build and dependency management
 
 Dependencies in pom.xml:
 
-spring-boot-starter-web - Starter for building RESTful services
+1. spring-boot-starter-web - Starter for building RESTful services
 
-spring-boot-starter-test - Starter for testing Spring Boot applications with libraries including JUnit Jupiter, Hamcrest and Mockito
+2. spring-boot-starter-test - Starter for testing Spring Boot applications with libraries including JUnit Jupiter, Hamcrest and Mockito
 
-springdoc-openapi-ui - For generation of API documentation
+3. springdoc-openapi-ui - For generation of API documentation
 
-spring-boot-starter-actuator - Starter for using Spring Boot’s Actuator for metrics and monitoring
+4. spring-boot-starter-actuator - Starter for using Spring Boot’s Actuator for metrics and monitoring
 
-micrometer-registry-prometheus - For Prometheus monitoring
+5. micrometer-registry-prometheus - For Prometheus monitoring
 
-opentracing-spring-jaeger-web-starter - For Jaeger distributed tracing
+6. opentracing-spring-jaeger-web-starter - For Jaeger distributed tracing
 
 **Tests:**
 
