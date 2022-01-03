@@ -2,8 +2,7 @@
 
 1. Add the following dependency in pom.xml file:
 
-![image](https://user-images.githubusercontent.com/47338443/147902694-7ad161a1-001b-49bb-8611-3bcc796c3624.png)
-
+![image](https://user-images.githubusercontent.com/47338443/147902780-8f478de4-9527-4b19-a26a-17173d1f8a90.png)
 
 2. Create a JaegerConfig.java file, so that Jaeger can trace the incoming requests.
 
