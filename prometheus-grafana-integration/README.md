@@ -26,20 +26,20 @@ http://localhost:9090/graph?g0.expr=go_memstats_alloc_bytes&g0.tab=0&g0.stacked=
 5) Check Grafana endpoint: 
 http://localhost:3000/login
 
-  5.1) Give Username and Password as “admin”.
-  
-  5.2) Click “Skip” on the “ Create New Password” page.
-  
-  5.3) From the icon list on the left side of the “New Dashboard” page, click on     Configuration -> Data sources -> Add data source -> Prometheus -> Select.
-  
-  5.4) On the “Settings” page, in the HTTp section, paste the URL as: http://host.docker.internal:9090.
-  
-  5.5) Click on “Save & test”.
-  
-  5.6) From the icon list on the left side, click on Create -> Dashboard -> Add a new panel.
-  
-  5.7) Add the required metrics for checking the logs on the web service by selecting the parameters from “Metrics browser”.
-  
-  5.8) To add more parameters, click on “+Query”.
-  
-  5.9) Click on “Apply” and the logs will be displayed on the dashboard, specifying the usage and requests that are generated on the web service.
+    5.1) Give Username and Password as “admin”.
+
+    5.2) Click “Skip” on the “ Create New Password” page.
+
+    5.3) From the icon list on the left side of the “New Dashboard” page, click on     Configuration -> Data sources -> Add data source -> Prometheus -> Select.
+
+    5.4) On the “Settings” page, in the HTTp section, paste the URL as: http://host.docker.internal:9090.
+
+    5.5) Click on “Save & test”.
+
+    5.6) From the icon list on the left side, click on Create -> Dashboard -> Add a new panel.
+
+    5.7) Add the required metrics for checking the logs on the web service by selecting the parameters from “Metrics browser”.
+
+    5.8) To add more parameters, click on “+Query”.
+
+    5.9) Click on “Apply” and the logs will be displayed on the dashboard, specifying the usage and requests that are generated on the web service.
