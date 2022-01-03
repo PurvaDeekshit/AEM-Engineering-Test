@@ -115,6 +115,8 @@ opentracing-spring-jaeger-web-starter - For Jaeger distributed tracing
 
 **Tests:**
 
+Used JUNIT Test for the following tests:
+
 Controller test:
 
 validInput - test covering positive scenario, where input is integer within the specified range.
