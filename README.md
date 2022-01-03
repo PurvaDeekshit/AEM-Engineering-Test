@@ -79,9 +79,11 @@ Packaging layout:
    
        contains the JUNIT tests for validating the core functionality.
        
-pom.xml contains the project dependencies
+pom.xml contains the project dependencies.
 
-Dockerfile contains the steps to build docker image
+Dockerfile contains the steps to build docker image.
+
+Project structure:
 
 ![image](https://user-images.githubusercontent.com/47338443/147909114-886e3f09-f8de-4964-901c-0e131d288379.png)
 
