@@ -1,6 +1,6 @@
 # AEM-Engineering-Test
 
-I have used JAVA and Sprinboot framework for this project. I initialized the project using springboot initializr: https://start.spring.io/
+I have used JAVA (version 17) and Sprinboot framework for this project. I initialized the project using springboot initializr: https://start.spring.io/
 
 To add DevOps capabilities to the project, I have used the following CNCF suggested tools since they are CNCF graduated projects described on the CNCF landscape webpage: https://landscape.cncf.io/.
 
