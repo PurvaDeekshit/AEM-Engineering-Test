@@ -1,6 +1,6 @@
 # AEM-Engineering-Test
 
-I have used JAVA and Sprinboot framework for this project.
+I have used JAVA and Sprinboot framework for this project. I initialized the project using springboot initializr: https://start.spring.io/
 
 To add DevOps capabilities to the project, I have used the following CNCF suggested tools since they are CNCF graduated projects described on the CNCF landscape webpage: https://landscape.cncf.io/.
 
@@ -16,13 +16,13 @@ There are total 5 projects in this repository. Each project has its own README.m
 
 1. int-to-roman-docker
  
-   Exposed REST API endpoint: "http://localhost:8080/romannumeral?query={integer}". Each Request generated unique UUID.
+   Exposed REST API endpoint: "http://localhost:8080/romannumeral?query={integer}". Each request generated an unique UUID.
    
-   Used Actuator endpoints let you monitor and interact with your application.
+   Used Actuator endpoints to monitor and interact with the application.
    
    Dockerized JAVA application using openjdk.
    
-   Generated SwAgger API Documention using OpenAPI (springdoc-openapi plugin).
+   Generated Swagger API Documention using OpenAPI (springdoc-openapi plugin).
 
    JUnit testcase for controller and functional testing.
    
@@ -40,7 +40,13 @@ There are total 5 projects in this repository. Each project has its own README.m
 
 4. efk-integration
   
-   Integrated Elasticsearch, Fluentd and Kibana (EFK) Logging Stack. Application running at 8080 send logs to fluentd using the fluent loggin drive. Fluentd fowrwards these to elasticsearch. Kibana pulls these logs from elasticsearch. Created index pattern for logs.
+   Integrated Elasticsearch, Fluentd and Kibana (EFK) Logging Stack.
+   
+   Application running at 8080 sends logs to Fluentd using the Fluentd logging driver.
+   
+   Fluentd fowrwards these to Elasticsearch. Kibana pulls these logs from Elasticsearch.
+   
+   Created index pattern for logs.
    
    Dockerized JAVA application using openjdk. Elasticsearch, Fluentd and Kibana each have their own containers.
 
@@ -51,8 +57,6 @@ There are total 5 projects in this repository. Each project has its own README.m
    Used Java ExecutorService to create a fixed threadpool to convert the range of integers to roman numerals using mutliple threads.
    
    Dockerized JAVA application using openjdk.
-
-
 
 **Engineering and testing methodology:**
 
@@ -118,7 +122,7 @@ opentracing-spring-jaeger-web-starter - For Jaeger distributed tracing
 
 **Tests:**
 
-Used JUNIT Test for the following tests:
+Used JUnit Test for the following tests:
 
 Controller test:
 
