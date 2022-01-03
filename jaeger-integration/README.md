@@ -13,8 +13,10 @@
 
 1) mvn clean install
 2) Run Jaeger in docker using the command:
+
 docker run -d --name jaeger-ui -p 16686:16686 -p 6831:6831/udp jaegertracing/all-in-one 
 3) Run the application using the command:
+
 java -jar target/docker-int-to-roman-0.0.1-SNAPSHOT.jar
 4) Check the Jaeger URL: http://localhost:16686/
 5) Under the “Service” section, click on “int-to-roman” and click on “Find Traces”. Refresh the page if the service is not visible.
