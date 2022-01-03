@@ -19,3 +19,7 @@ Expected output:
 8) On the Home page, search for "Index patterns" and click “Create index pattern” with “fluentd-*”.
 9) Click “Next step” and select “Time field” as “@timestamp”. Click on “Create index pattern”.
 10) On the top left corner, go to Analytics -> Discover section to check the logs generated for the webservice using: http://localhost:8080/romannumeral?query=123
+
+**Elasticsearch-Fluentd-Kibana (EFK):**
+
+![image](https://user-images.githubusercontent.com/47338443/147903986-8029aa80-5732-486f-b753-95b741fa3fdc.png)
