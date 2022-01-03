@@ -12,7 +12,8 @@ c) Elasticsearch, Fluentd and Kibana (EFK) Stack
 
 **Project info:**
 
-There are total 5 projects in this repository:
+There are total 5 projects in this repository. Each project has its own README.md file with steps to pull and run the source code.
+
 1. int-to-roman-docker
  
    Exposed REST API endpoint: "http://localhost:8080/romannumeral?query={integer}". Each Request generated unique UUID.
@@ -22,6 +23,8 @@ There are total 5 projects in this repository:
    Dockerized JAVA application using openjdk.
    
    Generated SwAgger API Documention using OpenAPI (springdoc-openapi plugin).
+
+   JUnit testcase for controller and functional testing.
    
 2. prometheus-grafana-integration
    
@@ -37,7 +40,7 @@ There are total 5 projects in this repository:
 
 4. efk-integration
   
-   Integrated Elasticsearch, Fluentd and Kibana (EFK) Logging Stack. 
+   Integrated Elasticsearch, Fluentd and Kibana (EFK) Logging Stack. Application running at 8080 send logs to fluentd using the fluent loggin drive. Fluentd fowrwards these to elasticsearch. Kibana pulls these logs from elasticsearch. Created index pattern for logs.
    
    Dockerized JAVA application using openjdk. Elasticsearch, Fluentd and Kibana each have their own containers.
 
@@ -49,11 +52,11 @@ There are total 5 projects in this repository:
    
    Dockerized JAVA application using openjdk.
 
-Each project has its own README.md file with steps to pull and run the source code.
+
 
 **Engineering and testing methodology:**
 
-Used JAVA SpringBoot framework to develop REST endpoints.
+Used JAVA SpringBoot framework to develop REST endpoints. Structured code as controller, service and entity layers.
 
 Used Actuator endpoints to monitor and interact with the application and maven for project build.  
 
