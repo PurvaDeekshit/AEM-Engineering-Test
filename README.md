@@ -163,3 +163,27 @@ If input is empty - "Empty string received while converting integer to roman"
 If minimum number is not less than maximum number - "Min number is greater than or equal to Max number"
 
 More details in attached report.
+
+**References:**
+
+1. Specification for Roman numerals: https://en.wikipedia.org/wiki/Roman_numerals
+
+2. Spring Boot: https://start.spring.io/
+
+3. Junit: https://spring.io/guides/gs/testing-web/
+
+4. Maven: https://docs.spring.io/spring-android/docs/2.0.0.M3/reference/html/maven.html
+
+5. OpenAPI documentation: https://springdoc.org/
+
+6. Prometheus: https://prometheus.io/docs/prometheus/latest/getting_started/
+
+7. Grafana: https://grafana.com/docs/grafana/latest/getting-started/
+
+8. Fluentd: https://docs.fluentd.org/quickstart
+
+9. Elasticsearch: https://www.elastic.co/guide/en/elastic-stack-get-started/current/index.html
+
+10. Kibana: https://www.elastic.co/guide/en/kibana/current/index.html
+
+11. Jaeger: https://www.jaegertracing.io/docs/1.29/getting-started/
