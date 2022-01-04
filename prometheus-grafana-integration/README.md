@@ -23,6 +23,10 @@ http://localhost:8080/admin/prometheus
 4) Check Prometheus endpoint:
 http://localhost:9090/graph?g0.expr=go_memstats_alloc_bytes&g0.tab=0&g0.stacked=0&g0.show_exemplars=0&g0.range_input=5m
 
+**Sample output from Prometheus:**
+
+![image](https://user-images.githubusercontent.com/47338443/148021656-32e86405-46c2-4fda-8650-04071a2a3ed2.png)
+
 5) Check Grafana endpoint: 
 http://localhost:3000/login
 
@@ -46,9 +50,14 @@ http://localhost:3000/login
     
 6) docker-compose stop
 
-**Sample output from Prometheus:**
+**Sample graphs from Grafana:**
 
-![image](https://user-images.githubusercontent.com/47338443/148021656-32e86405-46c2-4fda-8650-04071a2a3ed2.png)
+![image](https://user-images.githubusercontent.com/47338443/148022352-c35b248c-290e-4dba-b9e7-8bfd45413e49.png)
+
+![image](https://user-images.githubusercontent.com/47338443/148022387-eb0c7446-f400-4031-b241-833a2a252f37.png)
+
+
+
 
 
 
