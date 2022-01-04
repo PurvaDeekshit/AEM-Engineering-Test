@@ -1,5 +1,11 @@
 **Part 2: Metrics and Monitoring using Prometheus and Grafana**
 
+1. Add the following dependencies in pom.xml file:
+
+![image](https://user-images.githubusercontent.com/47338443/148023625-cefba0de-09f1-4237-a8cf-2b559d01cf23.png)
+
+2. The default base path for Actuator endpoint is changed from “/actuator” to “/admin”.
+
 **Steps to run:**
 
 1) git clone https://github.com/PurvaDeekshit/AEM-Engineering-Test.git
