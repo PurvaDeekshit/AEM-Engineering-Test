@@ -42,6 +42,7 @@ public class IntegerToRomanService {
             logger.error(CONVERSION_ERROR_NULL);
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(CONVERSION_ERROR_NULL);
         }
+        
         //check if empty
         if (romanOutput.isEmpty()) {
             logger.error(CONVERSION_ERROR_EMPTY);
