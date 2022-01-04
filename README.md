@@ -130,25 +130,25 @@ Used JUnit Test for the following tests:
 
 1. Controller test:
 
-     1.1 validInput - test covering positive scenario, where input is integer within the specified range.
+     1.1 validInput() - test covering positive scenario, where input is integer within the specified range.
 
-     1.2 invalidInput - test covering a scenario, where input is not integer.
+     1.2 invalidInput() - test covering a scenario, where input is not integer.
 
-     1.3 outOfRangeInputBelowMinimumValue - test covering a scenario, where input is less than the specified range.
+     1.3 outOfRangeInputBelowMinimumValue() - test covering a scenario, where input is less than the specified range.
 
-     1.4 outOfRangeInputAboveMaximumValue - test covering a scenario, where input is greater than the specified range.
+     1.4 outOfRangeInputAboveMaximumValue() - test covering a scenario, where input is greater than the specified range.
 
 2. Functionality test:
 
-     2.1 testValidInput - test if input parameter can be converted to integer.
+     2.1 testValidInput() - test if input parameter can be converted to integer.
 
-     2.2 testInvalidInput - test if input parameter cannot be converted to integer.
+     2.2 testInvalidInput() - test if input parameter cannot be converted to integer.
 
-     2.3 testValidInputRange -  test if input is in the specified range.
+     2.3 testValidInputRange() -  test if input is in the specified range.
 
-     2.4 testInvalidInputRange - test if input is not in the specified range.
+     2.4 testInvalidInputRange() - test if input is not in the specified range.
 
-     2.5 testGetRoman - test if the input is converted to roman numeral correctly.
+     2.5 testGetRoman() - test if the input is converted to roman numeral correctly.
 
 **Error handling:**
 
