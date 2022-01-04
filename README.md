@@ -90,11 +90,11 @@ Developed Junit test cases for service layer and REST controller.
 
     -- controller
    
-       contains the JUNIT tests for testing REST endpoints.
+       contains the JUnit tests for testing REST endpoints.
        
     -- entity
    
-       contains the JUNIT tests for validating the core functionality.
+       contains the JUnit tests for validating the core functionality.
        
 -- pom.xml contains the project dependencies.
 
