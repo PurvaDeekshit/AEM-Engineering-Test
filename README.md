@@ -1,6 +1,6 @@
 # AEM-Engineering-Test
 
-**Integer to Roman Numeral conversion + Docker**
+**Integer to Roman Numeral conversion**
 
 This project is developed using JAVA (version 17) and Sprinboot framework. I initialized the project using springboot initializr: https://start.spring.io/
 
