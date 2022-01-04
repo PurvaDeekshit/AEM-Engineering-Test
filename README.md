@@ -102,7 +102,7 @@ Developed Junit test cases for service layer and REST controller.
 
 **Project structure:**
 
-![image](https://user-images.githubusercontent.com/47338443/147909114-886e3f09-f8de-4964-901c-0e131d288379.png)
+![image](https://user-images.githubusercontent.com/47338443/147997366-1db74579-0d47-4aa1-b928-3df21353d369.png)
 
 **Dependency attribution:**
 
