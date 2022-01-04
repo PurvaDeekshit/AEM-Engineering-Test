@@ -21,3 +21,10 @@ Output:
 {
 "input":10,"output":"X"
 }
+
+**Sample output from Swagger OpenAPI documentation:**
+
+![image](https://user-images.githubusercontent.com/47338443/148022537-bc4f661c-0387-4700-bf02-95e419f7fcfb.png)
+
+![image](https://user-images.githubusercontent.com/47338443/148022629-d09f2411-b0f5-47ac-90d2-39b2ce070b46.png)
+
