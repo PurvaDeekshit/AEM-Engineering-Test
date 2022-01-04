@@ -1,4 +1,4 @@
-**Part 1: Int to Roman conversion + Docker**
+**Part 1: Integer to Roman Numeral conversion and Docker container**
 
 **Steps to run:**
 
