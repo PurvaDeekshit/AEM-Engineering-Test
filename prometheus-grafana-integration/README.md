@@ -2,7 +2,7 @@
 
 1. Add the following dependencies in pom.xml file:
 
-![image](https://user-images.githubusercontent.com/47338443/148023625-cefba0de-09f1-4237-a8cf-2b559d01cf23.png)
+![image](https://user-images.githubusercontent.com/47338443/148023716-eef0c48a-fad7-48e5-acdc-0647ecdae38c.png)
 
 2. The default base path for Actuator endpoint is changed from “/actuator” to “/admin”.
 
