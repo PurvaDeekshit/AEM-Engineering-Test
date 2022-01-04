@@ -1,4 +1,4 @@
-**Part 4: Elasticsearch-Fluentd-Kibana (EFK) integration**
+**Part 4: Logging using Elasticsearch-Fluentd-Kibana (EFK) stack**
 
 **Steps to run:**
 
