@@ -20,3 +20,11 @@ java -jar target/docker-int-to-roman-0.0.1-SNAPSHOT.jar
 4) Check the Jaeger URL: http://localhost:16686/
 5) Under the “Service” section, click on “int-to-roman” and click on “Find Traces”. Refresh the page if the service is not visible.
 6) The tracing logs can be viewed in detail under the “Service & Operation” section.
+
+
+**Sample logs from Jaeger:**
+
+![image](https://user-images.githubusercontent.com/47338443/148021965-8bee6894-65c6-4b29-a249-5038590456cf.png)
+
+![image](https://user-images.githubusercontent.com/47338443/148022043-4c41bee4-7242-44a4-8c02-51be3265396f.png)
+
