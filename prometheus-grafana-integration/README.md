@@ -1,4 +1,4 @@
-**Part 2: Monitoring using Prometheus and Grafana**
+**Part 2: Metrics and Monitoring using Prometheus and Grafana**
 
 **Steps to run:**
 
@@ -46,6 +46,9 @@ http://localhost:3000/login
     
 6) docker-compose stop
 
-Sample output from Prometheus:
+**Sample output from Prometheus:**
+
+![image](https://user-images.githubusercontent.com/47338443/148021656-32e86405-46c2-4fda-8650-04071a2a3ed2.png)
+
 
 
